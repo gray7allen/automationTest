@@ -35,7 +35,7 @@ const deleteMovie = async (driver) => {
     await driver.findElement(By.xpath('//button')).click()
     const movie = await driver.findElement(By.xpath('//li'))
 
-}ad
+}
 
 const revealMessage = async (driver) => {
 
